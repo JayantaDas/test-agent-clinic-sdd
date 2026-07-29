@@ -30,10 +30,11 @@
 | Runtime | Node.js 20 LTS |
 | Package manager | npm |
 | Linting | ESLint + Prettier |
-| Testing | Jest + React Testing Library |
+| Testing | Vitest + React Testing Library |
 
 ## Local Development
 
 - SQLite database file created automatically on first run — no Docker required
 - `npm run dev` starts the Next.js dev server on `localhost:3000`
 - Drizzle migrations run with `npx drizzle-kit push`
+- `npm test` runs the Vitest suite, used to validate features against spec

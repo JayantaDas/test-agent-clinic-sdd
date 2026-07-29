@@ -10,6 +10,7 @@ Phase 1 is ready to merge when **all** checks below pass.
 
 - [ ] `npm run build` completes with zero TypeScript errors
 - [ ] No `any` types introduced without explicit justification in a comment
+- [ ] `npm test` (Vitest) passes with zero failing tests
 
 ## 2. Database
 
