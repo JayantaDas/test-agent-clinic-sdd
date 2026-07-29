@@ -7,6 +7,7 @@
 - [ ] Install and configure Tailwind CSS
 - [ ] Install and initialise shadcn/ui
 - [ ] Add `.gitignore` entries for `*.db`, `.env.local`
+- [ ] Install and configure Vitest + React Testing Library (`vitest.config.ts`, jsdom environment)
 - [ ] Verify `npm run dev` starts cleanly on `localhost:3000`
 
 ### Group 2 — Database & Schema
@@ -41,3 +42,4 @@
 - [ ] Remove Next.js boilerplate (default page styles, placeholder content)
 - [ ] Add `README` dev-setup instructions (install, env vars, seed, run)
 - [ ] Final check: no TypeScript errors (`npm run build`)
+- [ ] Final check: `npm test` passes with zero failures
